@@ -146,3 +146,97 @@ def continue_train_gold_lstm(
     print("💾 Updated model & scaler saved.")
 
     return model, scaler
+
+import numpy as np
+import pandas as pd
+from tensorflow.keras.models import load_model
+import joblib
+from datetime import timedelta
+
+def predict_gold_prices_from_csv(csv_path, model_path, scaler_path, n_future=3, window_size=120):
+    """
+    ทำนายราคาทองคำต่อไป n_future ชั่วโมงจากไฟล์ CSV ด้วยโมเดล LSTM
+    คืนค่า:
+        - data: DataFrame ข้อมูลเดิม
+        - forecast_df: DataFrame ราคาทำนายและช่วง ±1%
+    """
+    # โหลดโมเดลและ scaler
+    model = load_model(model_path)
+    scaler = joblib.load(scaler_path)
+
+    # โหลดข้อมูล
+    data = pd.read_csv(csv_path)
+    if 'Datetime' not in data.columns or 'Close' not in data.columns:
+        raise ValueError("CSV ต้องมีคอลัมน์ 'Datetime' และ 'Close'")
+
+    data['Datetime'] = pd.to_datetime(data['Datetime'])
+    data = data.sort_values('Datetime').reset_index(drop=True)
+
+    close_prices = data[['Close']].values
+
+    # สเกลข้อมูล
+    scaled_data = scaler.transform(close_prices)
+
+    # ฟังก์ชันทำนายต่อเนื่องแบบรายชั่วโมง
+    def forecast_future(model, data_scaled, n_future, window_size):
+        preds = []
+        last_window = data_scaled[-window_size:].reshape(1, window_size, 1)
+        for _ in range(n_future):
+            pred = model.predict(last_window, verbose=0)
+            preds.append(pred[0, 0])
+            last_window = np.append(last_window[:, 1:, :], [[[pred[0, 0]]]], axis=1)
+        return np.array(preds).reshape(-1, 1)
+
+    window_size = min(window_size, len(scaled_data))
+
+    future_scaled = forecast_future(model, scaled_data, n_future=n_future, window_size=window_size)
+    future_pred = scaler.inverse_transform(future_scaled)
+
+    # สร้างเวลาอนาคตรายชั่วโมง
+    last_dt = data['Datetime'].iloc[-1]
+    future_dates = [last_dt + timedelta(hours=i+1) for i in range(n_future)]
+
+    # สร้าง DataFrame ของผลลัพธ์
+    forecast_df = pd.DataFrame({
+        "Datetime": future_dates,
+        "Predicted_Price": future_pred.flatten()
+    })
+
+    forecast_df["Lower_Bound (-1%)"] = forecast_df["Predicted_Price"] * 0.99
+    forecast_df["Upper_Bound (+1%)"] = forecast_df["Predicted_Price"] * 1.01
+
+    return data, forecast_df
+
+import matplotlib.pyplot as plt
+
+def plot_gold_prediction(data, forecast_df, last_history=60):
+    """
+    แสดงกราฟราคาทองคำจริงย้อนหลัง และราคาทำนายต่อเนื่อง
+    - data: DataFrame ข้อมูลจริง
+    - forecast_df: DataFrame ราคาทำนายต่อเนื่อง
+    - last_history: จำนวนช่วงเวลาย้อนหลังที่จะแสดง (default 60)
+    """
+    plt.figure(figsize=(12,6))
+
+    # ข้อมูลจริงย้อนหลัง
+    plt.plot(data['Datetime'].iloc[-last_history:], 
+             data['Close'].iloc[-last_history:], 
+             label='Actual (last history)', color='blue')
+
+    # ข้อมูลทำนายต่อเนื่อง
+    plt.plot(forecast_df["Datetime"], forecast_df["Predicted_Price"], '--o', color='red', label='Predicted')
+
+    # Margin ±1%
+    plt.fill_between(forecast_df["Datetime"],
+                     forecast_df["Lower_Bound (-1%)"],
+                     forecast_df["Upper_Bound (+1%)"],
+                     color='red', alpha=0.2, label='Margin ±1%')
+
+    plt.xlabel("Datetime")
+    plt.ylabel("Price (USD)")
+    plt.title(f"📈 predict gold in {len(forecast_df)} hours")
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig("Data/gold_price_prediction.png")
+    print("💾 Graph saved to: Data/gold_price_prediction.png")

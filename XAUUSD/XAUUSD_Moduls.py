@@ -53,7 +53,7 @@ def update_latest_data(symbol="GC=F", save_path="Data/gold_data.csv"):
 
     if not os.path.exists(save_path):
         print("⚠️ ไม่พบไฟล์ข้อมูลเก่า กำลังสร้างใหม่...")
-        return get_historical_data(symbol=symbol)
+        return get_historical_data(symbol=symbol) ,False
 
     # โหลดข้อมูลเก่า
     data = pd.read_csv(save_path, parse_dates=['Datetime'])
@@ -76,14 +76,14 @@ def update_latest_data(symbol="GC=F", save_path="Data/gold_data.csv"):
 
     if next_hour_utc >= now_utc:
         print("⚠️ ยังไม่มีชั่วโมงใหม่")
-        return data
+        return data, False
 
     print(f"⬇️ กำลังดึงข้อมูลจาก {next_hour_utc+ timedelta(hours=7)} ...")
     new_data = yf.download(symbol, start=next_hour_utc, end=next_hour_utc + timedelta(hours=54), interval="1h")
 
     if new_data.empty:
         print(f"⚠️ ไม่มีข้อมูลจาก yfinance → ใช้ราคาปิดล่าสุดแทน")
-        return data
+        return data, False
 
     # แปลง MultiIndex columns เป็น single level
     if isinstance(new_data.columns, pd.MultiIndex):
@@ -108,7 +108,7 @@ def update_latest_data(symbol="GC=F", save_path="Data/gold_data.csv"):
     data.to_csv(save_path, index=False)
     print(f"✅ เพิ่มข้อมูลชั่วโมงใหม่เรียบร้อย: {next_hour_local}, ขนาด DataFrame: {len(data)} แถว")
 
-    return data
+    return data, True
 
 
 def create_trade_log(log_path="Data/trade_log.csv"):
@@ -386,7 +386,10 @@ def auto_trading_with_lstm(model, scaler, symbol="GC=F", data_path="gold_data.cs
     print("🚀 เริ่มระบบ Auto Trading (LSTM)...")
     while True:
         try:
-            data = update_latest_data(symbol, save_path=data_path)
+            data,a = update_latest_data(symbol, save_path=data_path)
+            if not a:
+                break
+
             latest_row = data.iloc[[-1]]
 
             record = run_trading_latest_with_lstm(model, scaler, latest_row, data, log_path)
@@ -401,4 +404,5 @@ def auto_trading_with_lstm(model, scaler, symbol="GC=F", data_path="gold_data.cs
         except Exception as e:
             print("⚠️ Error:", e)
             print("⏱ รอ 60 วินาทีแล้วลองใหม่...")
-            time.sleep(60)
+            # time.sleep(60)
+            break

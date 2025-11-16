@@ -1,0 +1,220 @@
+﻿ข่าว,ราคาทองล่าสุด,ผลโมเดล,AI วิเคราะห์
+"Swiss gold refiners are interested in setting up shop in the United States in the future, said a senior Swiss economic affairs official on Friday at a press conference after a tariff agreement was reached with Washington.
+
+Switzerland exported nearly 53 billion Swiss francs’ ($66.83 billion) worth of gold to the United States in 2024, a major contributor towards the European country’s overall trade surplus of 39 billion francs with the US.
+
+However, gold is not very profitable for Switzerland, with a “very, very small” margin of perhaps 1% or less, said Helene Budliger Artieda, director of the State Secretariat for Economic Affairs (SECO).
+
+“But I believe it’s important for them. For the US, it’s crucial to strengthen its gold market,” Budliger added.
+
+The precious metal, which is imported to Switzerland from elsewhere and then resized for the US market,remains exempt from US tariffs.
+
+The United States will reduce its tariffs on goods from Switzerland to 15% from a crippling 39% under a new framework trade agreement that includes a pledge by Swiss companies to invest $200 billion into the US by the end of 2028, the Swiss government said on Friday.
+
+($1 = 0.7931 Swiss francs)
+
+(By Miranda Murray; Editing by John Revill)",2025,ราคาจะคงที่,"ข่าวนี้มีแนวโน้ม**ทำให้ราคาทองคำลดลงเล็กน้อย**
+
+**เหตุผล:**
+
+*   **การลงทุนในสหรัฐฯ:** ข่าวนี้บ่งชี้ว่าบริษัทสวิสอาจลงทุนตั้งโรงงานผลิตทองคำในสหรัฐฯ มากขึ้น ซึ่งอาจเพิ่มปริมาณทองคำในตลาดสหรัฐฯ และกดดันราคาลงเล็กน้อย
+*   **อัตรากำไรต่ำ:** ข่าวระบุว่าอัตรากำไรจากการผลิตทองคำในสวิสเซอร์แลนด์ค่อนข้างต่ำ ซึ่งอาจทำให้สวิสเซอร์แลนด์ลดความสำคัญของการส่งออกทองคำไปยังสหรัฐฯ ในระยะยาว
+
+แม้ว่าผลการคาดการณ์จากโมเดล ML จะบอกว่าราคาจะคงที่ แต่ข่าวนี้มีปัจจัยที่อาจส่งผลให้ราคาทองคำลดลงได้เล็กน้อย"
+"Swiss gold refiners are interested in setting up shop in the United States in the future, said a senior Swiss economic affairs official on Friday at a press conference after a tariff agreement was reached with Washington.
+
+Switzerland exported nearly 53 billion Swiss francs’ ($66.83 billion) worth of gold to the United States in 2024, a major contributor towards the European country’s overall trade surplus of 39 billion francs with the US.
+
+However, gold is not very profitable for Switzerland, with a “very, very small” margin of perhaps 1% or less, said Helene Budliger Artieda, director of the State Secretariat for Economic Affairs (SECO).
+
+“But I believe it’s important for them. For the US, it’s crucial to strengthen its gold market,” Budliger added.
+
+The precious metal, which is imported to Switzerland from elsewhere and then resized for the US market,remains exempt from US tariffs.
+
+The United States will reduce its tariffs on goods from Switzerland to 15% from a crippling 39% under a new framework trade agreement that includes a pledge by Swiss companies to invest $200 billion into the US by the end of 2028, the Swiss government said on Friday.
+
+($1 = 0.7931 Swiss francs)
+
+(By Miranda Murray; Editing by John Revill)","Datetime    2025-11-14 20:00:00+07:00
+Open                      4117.799805
+High                      4121.299805
+Low                       4042.399902
+Close                          4056.5
+Volume                              0
+Name: 11689, dtype: object","Datetime             2025-11-14 09:00:00
+Predicted_Price              4109.769043
+Actual_Price                 4171.899902
+Lower_Bound (-1%)            4068.671387
+Upper_Bound (+1%)            4150.866699
+Name: 0, dtype: object","ข่าวนี้มีแนวโน้มที่จะส่งผล **กระทบต่อราคาทองคำในระยะยาวอย่างเป็นกลางถึงเป็นบวกเล็กน้อย** ด้วยเหตุผลดังนี้:
+
+*   **บวก:** ข้อตกลงทางการค้าที่ลดภาษีระหว่างสหรัฐฯ และสวิตเซอร์แลนด์ รวมถึงการลงทุนของบริษัทสวิสในสหรัฐฯ อาจเสริมสร้างตลาดทองคำในสหรัฐฯ และความเชื่อมั่นของนักลงทุน
+*   **เป็นกลาง:** ข่าวนี้ไม่ได้ส่งผลกระทบโดยตรงต่ออุปสงค์และอุปทานทองคำในทันที แม้ว่าสวิตเซอร์แลนด์จะเป็นผู้ส่งออกทองคำรายใหญ่ไปยังสหรัฐฯ แต่กำไรจากทองคำของสวิตเซอร์แลนด์ค่อนข้างน้อย
+*   **ผลกระทบระยะยาว:** การตั้งโรงงานกลั่นทองคำสวิสในสหรัฐฯ อาจเพิ่มประสิทธิภาพและลดต้นทุนในระยะยาว ซึ่งอาจส่งผลดีต่อราคาทองคำ
+
+แม้ว่าโมเดล ML จะคาดการณ์ราคาที่ต่ำกว่าราคาจริงในปัจจุบัน แต่เนื่องจากข่าวนี้มีแนวโน้มที่จะส่งผลกระทบในระยะยาวมากกว่าผลกระทบในทันที จึงให้น้ำหนักไปที่ข่าวมากกว่า"
+"Swiss gold refiners are interested in setting up shop in the United States in the future, said a senior Swiss economic affairs official on Friday at a press conference after a tariff agreement was reached with Washington.
+
+Switzerland exported nearly 53 billion Swiss francs’ ($66.83 billion) worth of gold to the United States in 2024, a major contributor towards the European country’s overall trade surplus of 39 billion francs with the US.
+
+However, gold is not very profitable for Switzerland, with a “very, very small” margin of perhaps 1% or less, said Helene Budliger Artieda, director of the State Secretariat for Economic Affairs (SECO).
+
+“But I believe it’s important for them. For the US, it’s crucial to strengthen its gold market,” Budliger added.
+
+The precious metal, which is imported to Switzerland from elsewhere and then resized for the US market,remains exempt from US tariffs.
+
+The United States will reduce its tariffs on goods from Switzerland to 15% from a crippling 39% under a new framework trade agreement that includes a pledge by Swiss companies to invest $200 billion into the US by the end of 2028, the Swiss government said on Friday.
+
+($1 = 0.7931 Swiss francs)
+
+(By Miranda Murray; Editing by John Revill)","Datetime    2025-11-14 20:00:00+07:00
+Open                      4117.799805
+High                      4121.299805
+Low                       4042.399902
+Close                          4056.5
+Volume                              0
+Name: 11689, dtype: object","Datetime             2025-11-15 20:00:00+07:00
+Predicted_Price                    4009.433105
+Lower_Bound (-1%)                  3969.338867
+Upper_Bound (+1%)                  4049.527344
+Name: 0, dtype: object","ข่าวนี้มีแนวโน้มที่จะส่งผล **เป็นกลาง หรืออาจมีแรงกดดันให้ราคาทองคำลงเล็กน้อย** เนื่องจาก:
+
+*   **ปัจจัยกดดัน:** การที่บริษัทสวิสสนใจตั้งโรงงานผลิตทองคำในสหรัฐฯ อาจบ่งชี้ถึงการเพิ่มอุปทานทองคำในตลาดสหรัฐฯ ในอนาคต ซึ่งอาจกดดันราคาได้
+*   **ปัจจัยเป็นกลาง:** แม้ว่าทองคำจะเป็นสินค้าส่งออกหลักของสวิสเซอร์แลนด์ไปสหรัฐฯ แต่ผลกำไรที่สวิสเซอร์แลนด์ได้รับจากทองคำนั้นน้อยมาก ข่าวนี้จึงไม่ได้ส่งผลกระทบโดยตรงต่อตลาดทองคำโลกมากนัก
+*   **โมเดล ML:** โมเดล ML คาดการณ์ราคาทองคำลดลงเล็กน้อยในอนาคต
+
+อย่างไรก็ตาม ข้อมูลในข่าวไม่ได้บ่งชี้ถึงการเปลี่ยนแปลงอุปสงค์และอุปทานทองคำในระยะสั้นอย่างมีนัยสำคัญ ดังนั้นผลกระทบต่อราคาทองคำอาจมีจำกัด และต้องติดตามสถานการณ์อย่างใกล้ชิด"
+"Swiss gold refiners are interested in setting up shop in the United States in the future, said a senior Swiss economic affairs official on Friday at a press conference after a tariff agreement was reached with Washington.
+
+Switzerland exported nearly 53 billion Swiss francs’ ($66.83 billion) worth of gold to the United States in 2024, a major contributor towards the European country’s overall trade surplus of 39 billion francs with the US.
+
+However, gold is not very profitable for Switzerland, with a “very, very small” margin of perhaps 1% or less, said Helene Budliger Artieda, director of the State Secretariat for Economic Affairs (SECO).
+
+“But I believe it’s important for them. For the US, it’s crucial to strengthen its gold market,” Budliger added.
+
+The precious metal, which is imported to Switzerland from elsewhere and then resized for the US market,remains exempt from US tariffs.
+
+The United States will reduce its tariffs on goods from Switzerland to 15% from a crippling 39% under a new framework trade agreement that includes a pledge by Swiss companies to invest $200 billion into the US by the end of 2028, the Swiss government said on Friday.
+
+($1 = 0.7931 Swiss francs)
+
+(By Miranda Murray; Editing by John Revill)","Datetime    2025-11-15 04:00:00+07:00
+Open                      4088.600098
+High                      4094.199951
+Low                       4078.800049
+Close                     4094.199951
+Volume                              0
+Name: 11697, dtype: object","Datetime             2025-11-16 04:00:00+07:00
+Predicted_Price                    4035.368652
+Lower_Bound (-1%)                  3995.014893
+Upper_Bound (+1%)                  4075.722412
+Name: 0, dtype: object","ข่าวนี้มีแนวโน้มที่จะส่งผล **ราคาทองคำลดลง** ในระยะยาว แม้ว่าในระยะสั้นอาจมีปัจจัยบวกอยู่บ้าง
+
+**เหตุผล:**
+
+*   **การลงทุนในสหรัฐฯ:** ข้อตกลงการค้าที่สวิสฯ จะลงทุนในสหรัฐฯ จำนวนมาก อาจทำให้ความต้องการทองคำในสวิสฯ ลดลงในอนาคต เนื่องจากบริษัทสวิสฯ อาจหันไปลงทุนในสินทรัพย์อื่นๆ ในสหรัฐฯ แทน
+*   **กำไรต่ำ:** ข่าวระบุว่าการค้าทองคำของสวิสฯ มีกำไรน้อยมาก ซึ่งอาจทำให้สวิสฯ ไม่เน้นการค้าทองคำมากเท่าเดิมในอนาคต
+*   **การลดภาษี:** การลดภาษีนำเข้าของสหรัฐฯ อาจทำให้ทองคำจากแหล่งอื่นมีความน่าสนใจมากขึ้น ซึ่งอาจลดความต้องการทองคำจากสวิสฯ ในระยะยาว
+
+**ข้อควรระวัง:** โมเดล ML คาดการณ์ราคาทองคำที่ลดลงเล็กน้อย แต่ AI ให้น้ำหนักกับข่าวมากกว่า ดังนั้นการวิเคราะห์จึงเน้นไปที่ผลกระทบจากข่าวเป็นหลัก"
+"Swiss gold refiners are interested in setting up shop in the United States in the future, said a senior Swiss economic affairs official on Friday at a press conference after a tariff agreement was reached with Washington.
+
+Switzerland exported nearly 53 billion Swiss francs’ ($66.83 billion) worth of gold to the United States in 2024, a major contributor towards the European country’s overall trade surplus of 39 billion francs with the US.
+
+However, gold is not very profitable for Switzerland, with a “very, very small” margin of perhaps 1% or less, said Helene Budliger Artieda, director of the State Secretariat for Economic Affairs (SECO).
+
+“But I believe it’s important for them. For the US, it’s crucial to strengthen its gold market,” Budliger added.
+
+The precious metal, which is imported to Switzerland from elsewhere and then resized for the US market,remains exempt from US tariffs.
+
+The United States will reduce its tariffs on goods from Switzerland to 15% from a crippling 39% under a new framework trade agreement that includes a pledge by Swiss companies to invest $200 billion into the US by the end of 2028, the Swiss government said on Friday.
+
+($1 = 0.7931 Swiss francs)
+
+(By Miranda Murray; Editing by John Revill)","Datetime    2025-11-15 04:00:00+07:00
+Open                      4088.600098
+High                      4094.199951
+Low                       4078.800049
+Close                     4094.199951
+Volume                              0
+Name: 11697, dtype: object","Datetime             2025-11-15 05:00:00+07:00
+Predicted_Price                    4035.368652
+Lower_Bound (-1%)                  3995.014893
+Upper_Bound (+1%)                  4075.722412
+Name: 0, dtype: object","ข่าวนี้มีแนวโน้มที่จะ**ส่งผลกระทบต่อราคาทองคำเป็นกลางถึงขึ้นเล็กน้อย**
+
+**เหตุผล:**
+
+*   **ปัจจัยสนับสนุน (ขึ้นเล็กน้อย):**
+    *   การที่บริษัทสวิสสนใจตั้งโรงงานกลั่นทองในสหรัฐฯ แสดงถึงความต้องการทองคำในตลาดสหรัฐฯ ที่อาจเพิ่มขึ้น
+    *   ข้อตกลงการค้าใหม่ที่สหรัฐฯ ลดภาษีสินค้านำเข้าจากสวิตเซอร์แลนด์ อาจกระตุ้นการค้าทองคำระหว่างสองประเทศ
+    *   การลงทุนของบริษัทสวิสในสหรัฐฯ อาจส่งผลดีต่อเศรษฐกิจสหรัฐฯ โดยรวม ซึ่งอาจส่งผลดีต่อราคาทองคำในฐานะสินทรัพย์ปลอดภัย
+
+*   **ปัจจัยกดดัน (เป็นกลาง):**
+    *   อัตรากำไรจากการค้าทองคำของสวิตเซอร์แลนด์ค่อนข้างต่ำ แสดงว่าแรงจูงใจทางเศรษฐกิจในการขยายธุรกิจทองคำอาจไม่สูงนัก
+    *   ทองคำที่สวิตเซอร์แลนด์ส่งออกไปยังสหรัฐฯ เป็นทองคำที่นำเข้าจากที่อื่นมาแปรรูป ซึ่งหมายความว่าการตั้งโรงงานในสหรัฐฯ อาจไม่ได้ส่งผลกระทบต่อปริมาณทองคำโดยรวมในตลาดโลกมากนัก
+    *   โมเดล ML คาดการณ์ว่าราคาทองคำจะลดลงเล็ก"
+"Swiss gold refiners are interested in setting up shop in the United States in the future, said a senior Swiss economic affairs official on Friday at a press conference after a tariff agreement was reached with Washington.
+
+Switzerland exported nearly 53 billion Swiss francs’ ($66.83 billion) worth of gold to the United States in 2024, a major contributor towards the European country’s overall trade surplus of 39 billion francs with the US.
+
+However, gold is not very profitable for Switzerland, with a “very, very small” margin of perhaps 1% or less, said Helene Budliger Artieda, director of the State Secretariat for Economic Affairs (SECO).
+
+“But I believe it’s important for them. For the US, it’s crucial to strengthen its gold market,” Budliger added.
+
+The precious metal, which is imported to Switzerland from elsewhere and then resized for the US market,remains exempt from US tariffs.
+
+The United States will reduce its tariffs on goods from Switzerland to 15% from a crippling 39% under a new framework trade agreement that includes a pledge by Swiss companies to invest $200 billion into the US by the end of 2028, the Swiss government said on Friday.
+
+($1 = 0.7931 Swiss francs)
+
+(By Miranda Murray; Editing by John Revill)","Datetime    2025-11-15 04:00:00+07:00
+Open                      4088.600098
+High                      4094.199951
+Low                       4078.800049
+Close                     4094.199951
+Volume                              0
+Name: 11697, dtype: object","Datetime             2025-11-15 05:00:00+07:00
+Predicted_Price                    4035.368652
+Lower_Bound (-1%)                  3995.014893
+Upper_Bound (+1%)                  4075.722412
+Name: 0, dtype: object","ข่าวนี้มีแนวโน้มทำให้ราคาทองคำ **ทรงตัวหรือมีแนวโน้มไปในทางลงเล็กน้อย**
+
+**เหตุผล:**
+
+*   **ปัจจัยกดดันราคา:** ข่าวนี้บ่งชี้ว่าสวิตเซอร์แลนด์สนใจที่จะตั้งโรงงานกลั่นทองในสหรัฐอเมริกา ซึ่งอาจทำให้สหรัฐฯ พึ่งพาการนำเข้าทองคำจากสวิตเซอร์แลนด์น้อยลงในระยะยาว และอาจส่งผลให้ความต้องการทองคำจากสวิตเซอร์แลนด์ลดลง นอกจากนี้ ข่าวระบุว่ากำไรจากการค้าทองคำของสวิตเซอร์แลนด์มีน้อยมาก ซึ่งอาจบ่งชี้ว่าสวิตเซอร์แลนด์อาจไม่พยายามรักษาระดับราคาทองคำมากนัก
+*   **ผลคาดการณ์โมเดล ML:** โมเดล ML คาดการณ์ว่าราคาทองคำจะลดลงเล็กน้อย
+*   **ปัจจัยหนุนราคา:** ข้อตกลงทางการค้าใหม่ระหว่างสหรัฐฯ และสวิตเซอร์แลนด์อาจส่งผลดีต่อเศรษฐกิจโดยรวม ซึ่งอาจส่งผลดีต่อราคาทองคำในฐานะสินทรัพย์ปลอดภัย แต่ผลกระทบดังกล่าวน่าจะมีน้อยกว่าปัจจัยกดดันราคาที่กล่าวมาข้างต้น
+
+**สรุป:** โดยรวมแล้ว ปัจจัยกดดันราคามีน้ำหนักมากกว่าปัจจัยหนุนราคา ทำให้มีแนวโน้มที่ราคาทองคำจะ"
+"Swiss gold refiners are interested in setting up shop in the United States in the future, said a senior Swiss economic affairs official on Friday at a press conference after a tariff agreement was reached with Washington.
+
+Switzerland exported nearly 53 billion Swiss francs’ ($66.83 billion) worth of gold to the United States in 2024, a major contributor towards the European country’s overall trade surplus of 39 billion francs with the US.
+
+However, gold is not very profitable for Switzerland, with a “very, very small” margin of perhaps 1% or less, said Helene Budliger Artieda, director of the State Secretariat for Economic Affairs (SECO).
+
+“But I believe it’s important for them. For the US, it’s crucial to strengthen its gold market,” Budliger added.
+
+The precious metal, which is imported to Switzerland from elsewhere and then resized for the US market,remains exempt from US tariffs.
+
+The United States will reduce its tariffs on goods from Switzerland to 15% from a crippling 39% under a new framework trade agreement that includes a pledge by Swiss companies to invest $200 billion into the US by the end of 2028, the Swiss government said on Friday.
+
+($1 = 0.7931 Swiss francs)
+
+(By Miranda Murray; Editing by John Revill)","Datetime    2025-11-15 04:00:00+07:00
+Open                      4088.600098
+High                      4094.199951
+Low                       4078.800049
+Close                     4094.199951
+Volume                              0
+Name: 11697, dtype: object","Datetime             2025-11-15 05:00:00+07:00
+Predicted_Price                    4026.188721
+Lower_Bound (-1%)                  3985.926758
+Upper_Bound (+1%)                  4066.450684
+Name: 0, dtype: object","ข่าวนี้มีแนวโน้มทำให้ราคาทอง**ทรงตัวถึงขึ้นเล็กน้อย** เหตุผลคือ:
+
+*   **ข่าวเชิงบวก:** ข้อตกลงทางการค้าระหว่างสวิตเซอร์แลนด์และสหรัฐอเมริกา รวมถึงการลงทุนของบริษัทสวิสในตลาดสหรัฐฯ อาจช่วยเสริมความแข็งแกร่งให้กับตลาดทองคำในสหรัฐฯ และเพิ่มความต้องการทองคำ
+*   **ข่าวเชิงลบ:** แม้ว่าสวิตเซอร์แลนด์จะส่งออกทองคำไปยังสหรัฐฯ จำนวนมาก แต่ผลกำไรจากทองคำค่อนข้างต่ำ ซึ่งอาจไม่ได้ส่งผลกระทบต่อราคาทองคำโดยรวมมากนัก
+*   **ผลการคาดการณ์:** โมเดล ML คาดการณ์ว่าราคาทองคำจะลดลงเล็กน้อย แต่ข่าวมีน้ำหนักมากกว่าในการวิเคราะห์นี้
+
+โดยรวมแล้ว ข่าวนี้มีแนวโน้มที่จะส่งผลกระทบเชิงบวกต่อราคาทองคำมากกว่าเชิงลบ แม้ว่าผลกระทบอาจไม่มากนัก"
